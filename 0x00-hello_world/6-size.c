@@ -17,3 +17,4 @@ int main(void)
 	printf("size of a long long: %d\n", sizeof(long long));
 	printf("size of a float: %d\n", sizeof(float));
 	return (0);
+}
