@@ -7,7 +7,7 @@
  *
  * Description: A program that shows an example of if statement
  *
- * Result: Always 0 (Success)
+ * result: Always 0 (Success)
  */
 
 int main(void)
@@ -23,7 +23,7 @@ int main(void)
 	}
 	if (n == 0)
 	{
-		printf("%i 0 is zero\n", n);
+		printf("%i is zero\n", n);
 	}
 	if (n < 0)
 	{
