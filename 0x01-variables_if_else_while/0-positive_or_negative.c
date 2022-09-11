@@ -5,7 +5,7 @@
 /**
  * main - entry piont
  *
- * Description: A program that shows an example of if statement
+ *  Description: print value of n satus; zero, positive or negative
  *
  * result: Always 0 (Success)
  */
