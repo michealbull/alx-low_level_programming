@@ -5,11 +5,12 @@
 /**
  * main - entry piont
  *
- * Description: A program that shows an example of if statement
+ *  Description: print value of n satus; zero, positive or negative
  *
- * Result: Always 0 (Success)
+ * result: Always 0 (Success)
  */
 
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -23,7 +24,7 @@ int main(void)
 	}
 	if (n == 0)
 	{
-		printf("%i 0 is zero\n" n);
+		printf("%i is zero\n", n);
 	}
 	if (n < 0)
 	{
