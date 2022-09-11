@@ -23,7 +23,7 @@ int main(void)
 	}
 	if (n == 0)
 	{
-		printf("%i 0 is zero\n" n);
+		printf("%i 0 is zero\n", n);
 	}
 	if (n < 0)
 	{
