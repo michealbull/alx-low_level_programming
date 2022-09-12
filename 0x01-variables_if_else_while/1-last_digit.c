@@ -7,7 +7,7 @@
  *
  * Description: A program that prints the last digit,
  *              rather than the first
- * result: Always 0 (Success)
+ * result: Always O (Success)
  */
 int main(void)
 
