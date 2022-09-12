@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Entey point
+ * main - A program that prints the last digit,
+ *              rather than the first
  *
  * Description: A program that prints the last digit,
  *              rather than the first
