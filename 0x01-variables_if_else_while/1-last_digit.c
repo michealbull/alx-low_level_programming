@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - entey point
+ * main - Entey point
  *
- *Description: A program that prints the last digit,
- *rather than the first
+ * Description: A program that prints the last digit,
+ *              rather than the first
  * Result: Always 0 (Success)
  */
 int main(void)
