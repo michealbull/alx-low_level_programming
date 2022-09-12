@@ -9,7 +9,7 @@
  *
  * Result: Always 0 (Success)
  */
-int main(void)
+int main()
 
 {
 	int n, lastdigit;
@@ -34,5 +34,4 @@ int main(void)
 	}
 
 		return (0);
-
 }
