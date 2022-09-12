@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
  *
- * Description: A program that will print letters 
- * apart from qn and e 
+ * Description: A program that will print letters
+ * apart from qn and e
  *
- * Return: Always 0 
+ * Return: Always 0
  */
 
 int main(void)
