@@ -4,9 +4,6 @@
 
 /**
  * main - Entry point
- *           
- * Description: A program that prints the last digit,
- *              rather than the first
  *
  * Result: Always 0 (Success)
  */
