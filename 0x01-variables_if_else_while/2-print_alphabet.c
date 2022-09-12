@@ -3,8 +3,6 @@
 /**
  * main - Entry point
  *
- * Description: printing lowercase letters with putchar
- *
  * return: Always 0 (Success)
 */
 
