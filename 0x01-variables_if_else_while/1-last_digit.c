@@ -3,12 +3,12 @@
 #include <stdio.h>
 
 /**
- * main - A program that prints the last digit,
- *              rather than the first
- *
+ * main - Entry point
+ *           
  * Description: A program that prints the last digit,
  *              rather than the first
- * RESULT: Always 0 (Success)
+ *
+ * Result: Always 0 (Success)
  */
 
 int main(void)
