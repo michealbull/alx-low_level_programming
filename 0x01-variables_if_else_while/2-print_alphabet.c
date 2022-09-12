@@ -5,7 +5,7 @@
  *
  * Description: printing lowercase letters with putchar
  *
- * Result: Always 0 (Success)
+ * result: Always 0 (Success)
 */
 
 int main(void)
