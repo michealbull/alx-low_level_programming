@@ -7,7 +7,7 @@
  *
  * Description: A program that prints the last digit,
  *              rather than the first
- * Result: Always 0 (Success)
+ * result: Always 0 (Success)
  */
 int main(void)
 
@@ -33,5 +33,5 @@ int main(void)
 	printf("Last digit of %i is %i and is less than 6 and not 0\n", n, lastdigit);
 	}
 
-	Return (0);
+	return (0);
 }
