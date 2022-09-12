@@ -2,15 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 
-/**
- * main - entry piont
- *
- *  Description: print value of n satus; zero, positive or negative
- *
- * result: Always 0 (Success)
- */
 
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ *
+ * Description: print value of n satus; zero, negative
+ *
+ * Return: Always 0 (Success)
+*/
+
 int main(void)
 {
 	int n;
@@ -19,17 +19,11 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
-	{
 		printf("%i is positive\n", n);
-	}
-	if (n == 0)
-	{
+	else if (n == 0)
 		printf("%i is zero\n", n);
-	}
-	if (n < 0)
-	{
+	else
 		printf("%i is negative\n", n);
-	}
-	return (0);
 
+	return (0);
 }
