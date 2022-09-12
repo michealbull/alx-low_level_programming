@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - entey point
+ * main - Entey point
  *
- *Description: A program that prints the last digit
- *
+ * Description: A program that prints the last digit,
+ *              rather than the first
  * Result: Always 0 (Success)
  */
 int main(void)
@@ -22,17 +22,16 @@ int main(void)
 
 	if (lastdigit > 5)
 	{
-		printf("last digit of %i is %i and is greater than 5\n", n, lastdigit);
+		printf("Last digit of %i is %i and is greater than 5\n", n, lastdigit);
 	}
-	if else(lastdigit == 0)
+	else if (lastdigit == 0)
 	{
-		printf("last digit of %i is %i and is 0\n", n, lastdigit);
+		printf("Last digit of %i is %i and is 0\n", n, lastdigit);
 	}
-	if else(lastdigit < 6 && !0)
+	else if (lastdigit < 6 && !0)
 	{
-	printf("last digit of %i is %i and is less than 6 and not 0\n", n, lastdigit);
+	printf("Last digit of %i is %i and is less than 6 and not 0\n", n, lastdigit);
 	}
 
-		return (0);
-
+	return (0);
 }
