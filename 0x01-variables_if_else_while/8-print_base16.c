@@ -16,6 +16,7 @@ int main(void)
 			{
 				ch += 39;
 			}
+		++ch;
 	}
 	putchar('\n');
 
