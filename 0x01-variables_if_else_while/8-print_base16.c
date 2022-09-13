@@ -7,10 +7,11 @@
  */
 
 int main(void)
-{ 	int  ch = 48;
+{
+	int  ch = 48;
 
 	while (ch <= 102)
-	{ 
+	{
 		putchar(ch);
 			if (ch == 57)
 			{
