@@ -3,13 +3,13 @@
 /**
  * main - entry point
  *
- * return: Always 0
+ * Return: Always 0
  */
 
 int main(void)
-{	int ch = 'a';
+{	int ch = '49';
 
-	while(ch <= 'z')
+	while (ch <= '57')
 	{
 		putchar(ch);
 		++ch;
