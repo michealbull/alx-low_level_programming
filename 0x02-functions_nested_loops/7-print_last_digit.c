@@ -1,19 +1,28 @@
 #include"main.h"
-
 /**
- * print_last_digit - Entry point
- *
- * Return: return 0
+ * jack_bauer - prints every minute of the day
  */
-
-int print_last_digit(int)
+void jack_bauer(void)
 {
-	int r;
+	int min, hr;
 
-	r % 10;
+	for (hr = 0; hr <= 23; ++hr)
 
-	_putchar(r);
-	_putchar('\n');
+	{
 
-	return (r);
+		for (min = 0; min <= 59; ++min)
+
+		{
+
+			_putchar((hr / 10) + '0');
+					_putchar((hr % 10) + '0');
+			_putchar(':');
+			_putchar((min / 10) + '0');
+			_putchar((min % 10) + '0');
+			_putchar('\n');
+
+		}
+
+	}
+
 }
