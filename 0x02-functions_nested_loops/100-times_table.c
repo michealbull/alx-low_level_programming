@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * print_times_table - prints time table of n
+ * print_times_table - prints times table
  *
  * @n: takes number input
 */
@@ -27,7 +27,7 @@ void print_times_table(int n)
 				if (jam <= 99)
 					_putchar(' ');
 
-				if (prod >= 100)
+				if (jam >= 100)
 				{
 					_putchar((jam / 100) + 48);
 					_putchar((jam / 10) % 10 + 48);
