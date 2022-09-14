@@ -18,13 +18,13 @@ void times_table(void)
 			_putchar(' ');
 
 			jam = chim * fish;
-        
+			
 			if (jam <= 9)
 				_putchar(' ');
 			else
 				_putchar((jam / 10) + 48);
 
-			_putchar((jam % 10) + 48); 
+			_putchar((jam % 10) + 48);
 		}
 		_putchar('\n');
 	}
