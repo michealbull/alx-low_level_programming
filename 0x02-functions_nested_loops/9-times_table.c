@@ -19,7 +19,7 @@ void times_table(void)
 
 			jam = chim * fish;
         
-			if (jal <= 9)
+			if (jam <= 9)
 				_putchar(' ');
 			else
 				_putchar((jam / 10) + 48);
