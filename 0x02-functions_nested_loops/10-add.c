@@ -6,7 +6,7 @@
  * @a: input
  * @b: input
  *
- * Return: sum 
+ * Return: sum
  */
 
 int add(int a, int b)
