@@ -17,7 +17,7 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 
-			jam = chim * fish
+			jam = chim * fish;
         
 			if (jal <= 9)
 				_putchar(' ');
