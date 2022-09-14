@@ -1,4 +1,4 @@
-#include"main"
+#include"main.h"
 
 /**
  * islower - ensures that c is lower case
