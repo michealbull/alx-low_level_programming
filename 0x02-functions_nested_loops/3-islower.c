@@ -3,6 +3,8 @@
 /**
  * _islower - ensures that c is lower case
  *
+ * @c: checks input of function
+ *
  * Return: return 1 if c islower,
  *         return 0 otherwise
  */
