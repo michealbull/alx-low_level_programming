@@ -1,7 +1,6 @@
 #include"main.h"
 
 /**
- *
  * _abs - absolute value of an integer
  *
  * @n: will be given
