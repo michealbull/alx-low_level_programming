@@ -11,6 +11,6 @@ void print_numbers(void)
 
 	do {
 		_putchar(d);
-	} while (d = 0,++d)
+	} while (d = 0,++d);
 	_putchar('\n');
 }
