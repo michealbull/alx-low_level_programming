@@ -55,6 +55,11 @@ void largest_prime_factor(long int num)
 	printf("%d\n", largest);
 }
 
+/**
+ *  main - Entry point
+ *
+ *  Return: Always 0 (Success)
+ */
 int main(void)
 {
 
