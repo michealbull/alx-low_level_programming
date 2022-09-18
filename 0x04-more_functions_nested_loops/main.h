@@ -17,8 +17,3 @@ void print_triangle(int size);
 void print_number(int n);
 
 #endif /* MAIN_H */
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Priv
