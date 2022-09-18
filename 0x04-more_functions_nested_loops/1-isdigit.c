@@ -1,11 +1,8 @@
 #include"main.h"
-#include <stdio.h>
 
 /**
  * _isdigit - Entry point
- *
  * @c: takes input for c
- *
  * Return: Always 0
  */
 
