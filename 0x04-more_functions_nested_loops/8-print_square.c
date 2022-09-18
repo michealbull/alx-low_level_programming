@@ -1,10 +1,12 @@
 #include"main.h"
 
-
 /**
  * print_square - print a square
+ *
+ * @size: is the size of the square
+ *
  * Return: Always 0
- */
+*/
 
 void print_square(int size)
 {
