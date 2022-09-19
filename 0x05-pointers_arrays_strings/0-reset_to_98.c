@@ -4,12 +4,12 @@
 /**
  * reset_to_98 - Entry point
  *
- * @*n: takes input for pointer n
+ * @n: takes input for pointer n
  *
  * Return: Always 0
  */
 
 void reset_to_98(int *n)
 {
-	*n =98;
+	*n = 98;
 }
