@@ -11,14 +11,10 @@
 
 int _strlen(char *s)
 {
-	char *str;
+	int counter;
 
-	int len;
+	for (counter = 0; *s != '\0'; ++s)
+		++counter;
 
-
-
-	str = "My first strlen!";
-
-	len = _strlen(str);
-	return(strlen);
+	return (counter);
 }
