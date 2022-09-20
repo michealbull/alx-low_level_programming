@@ -12,7 +12,7 @@ void print_rev(char *s)
 
 	for (sin = 0; s[sin] != '\0'; ++sin)
 	{
-		for (sin = sin - 1; sin >= 0; --sin)
+		for (sin = sin - 1; sin >= 0; sin--)
 		{
 			_putchar(s[sin]);
 		}
