@@ -6,7 +6,7 @@
  * @s: takes input
  */
 
-void _print_rev(char *s)
+void print_rev(char *s)
 {
 	int sin;
 
