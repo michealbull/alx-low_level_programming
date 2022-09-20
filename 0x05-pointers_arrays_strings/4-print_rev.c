@@ -16,4 +16,6 @@ void _print_rev(char *s)
 		for (sin = sin - 1; sin >= 0; sin--)
 			_putchar(s[sin]);
 	_putchar('\n');
+
+	return (0);
 }
